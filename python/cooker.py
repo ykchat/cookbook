@@ -33,6 +33,7 @@ if __name__ == '__main__':
 
     names = [
         'recipes.base',
+        'recipes.loop'
     ]
 
     cook(names)
