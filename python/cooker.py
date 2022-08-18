@@ -35,7 +35,8 @@ if __name__ == '__main__':
         'recipes.base',
         'recipes.loop',
         'recipes.file',
-        'recipes.command'
+        'recipes.command',
+        'recipes.async'
     ]
 
     cook(names)
