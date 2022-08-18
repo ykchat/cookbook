@@ -28,6 +28,7 @@ def cook(names):
         recipe.cook()
 
         logger.debug(f'END {name}')
+        
 
 if __name__ == '__main__':
 
@@ -36,7 +37,8 @@ if __name__ == '__main__':
         'recipes.loop',
         'recipes.file',
         'recipes.command',
-        'recipes.async'
+        'recipes.async',
+        'recipes.http'
     ]
 
     cook(names)

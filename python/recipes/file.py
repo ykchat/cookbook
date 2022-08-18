@@ -13,7 +13,7 @@ def title():
 
 def cook():
 
-    name = os.path.abspath('file.py')
+    name = os.path.abspath('./python/cooker.py')
 
     ## 基本情報
 
