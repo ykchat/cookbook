@@ -15,13 +15,13 @@ def cook():
 
     name = os.path.abspath('file.py')
 
-    # 基本情報
+    ## 基本情報
 
     logger.info(f'dir={os.path.dirname(name)}')
     logger.info(f'file={os.path.basename(name)}')
     logger.info(f'size={os.path.getsize(name)}')
 
-    # 行数カウント
+    ## 行数カウント
 
     lc = 0
     with open(name, 'r') as file:
